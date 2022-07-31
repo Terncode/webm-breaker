@@ -1,0 +1,27 @@
+{
+  "name": "webm-breaker",
+  "version": "1.0.0",
+  "description": "",
+  "author": "Terncode",
+  "main": "index.js",
+  "scripts": {
+    "build": "tsc",
+    "build:w": "tsc -w",
+    "nodemon": "nodemon index.js",
+    "start": "node index.js",
+    "test": "echo \"All test have passed\" && exit 1"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "discord.js": "^14.1.2"
+  },
+  "devDependencies": {
+    "typescript": "^4.7.4",
+    "nodemon": "^2.0.19",
+    "@typescript-eslint/eslint-plugin": "^5.31.0",
+    "@typescript-eslint/parser": "^5.31.0",
+    "eslint": "^8.20.0"
+  }
+}
